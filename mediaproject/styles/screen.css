@@ -1,0 +1,126 @@
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+}
+#wrapper {
+	height: 50px;
+	padding: 30px 10px 10px 10px;
+	position:relative;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.column {
+	width: 30%;
+	float:left;
+}
+
+.column + .column {
+	width: 60%;
+	float:right;
+	border-left: 6px solid black;
+	padding: 0 0 0 40px;
+}
+
+h4 {
+	clear:both;
+}
+#audioElapsed, #audioDuration, #audioTimeLeft{
+	 display:inline-block;
+}
+#highlights {
+	clear:both;	
+}
+#highlights p {
+ width: 200px;
+}
+ul {
+	list-style:none;
+	margin: -34px 0 60px 140px;
+}
+li {
+	font-size:12px;
+	width: 120px;
+	float:left;
+	margin:0 0 10px 20px;
+	padding: 4px 0;
+	cursor:pointer;
+	text-align:center;
+	border: 2px solid #666;
+	color: #ED1607;
+	font-weight:900;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+button {
+	background: #888;
+	border:2px solid #666;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	bottom: 10px;
+	color: #fff;
+	padding: 5px;
+	width:150px;
+	margin: 10px 10px 20px 0;
+	padding: 10px;
+}
+ button:hover, li:hover {
+	-webkit-box-shadow: 3px 3px 3px 3px rgba(60, 60, 60, .8);
+	-moz-box-shadow: 3px 3px 3px 3px rgba(60, 60, 60, .8);
+	box-shadow: 3px 3px 3px 3px rgba(60, 60, 60, .8);
+}
+  button:active, li:active {
+	-webkit-box-shadow: inset 3px 3px 3px 3px rgba(60, 60, 60, .8);
+	-moz-box-shadow: inset 3px 3px 3px 3px rgba(60, 60, 60, .8);
+	box-shadow: inset 3px 3px 3px 3px rgba(60, 60, 60, .8);
+}
+.hidden { display:none; }
+#audioElapsed, #audioTimeLeft {
+	font-size:30px;
+	background: #000;
+	color:#fff;
+	padding:6px;
+	font-weight:900;
+}
+#audioSeek {
+	background: #ccc;
+	width:304px;
+	border: 1px solid #000;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	display:block;
+	height:14px;
+}
+#audioLoaded {
+	background: #ccc;
+	border: 1px solid #ccc;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	display:block;
+	height:12px;
+}
+
+.time .block {
+  width: 45%;
+	float:left;
+	margin: 20px 10px 20px 0;
+}
+
+#MozillaAPIWrapper {
+	clear:both;
+}
+.noAPI {
+	border: 2px solid #333;
+	padding: 15px;
+	background: #E3E3E3;
+	margin-top:80px;
+}
+
+.playing {
+	background: #ED1607 !important;
+	border: 1px solid #ED1607 !important;	
+}
+canvas {margin-left:60px;}
+.showCanvas {background: #000;}
+

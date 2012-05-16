@@ -1,0 +1,22 @@
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+}
+
+#container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.textGroupHeader {
+	color:#C30;
+	font-size:24px;
+	background:#FF6;
+}
+
+
+.mytext {
+	color:#C30;
+	font-size:24px;
+	background:#FF6;
+}

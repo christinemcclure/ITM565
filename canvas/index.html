@@ -1,0 +1,30 @@
+<!-- <?php $docRoot = "/mcclure/canvas/"; ?> -->
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Canvas Assignment</title>
+  <script src="js/raphael.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="js/globals.js"></script>
+  <script src="js/functions.js"></script>
+  <script src="js/site.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="styles/screen.css" />
+</head>
+
+<body>
+	<div id="container">
+	<h1>Galvin Library Quickstarter App</h1>
+  	<p>Find the resource you need by answering using this pathfinder:</p>
+  	<p>(Unless, of course, you're using IE, which only works randomly on this page.)</p>
+    <div id="canvasSVG"></div>
+	</div>   
+  
+	<script type="text/javascript">
+		$(document).ready(function() {
+				init();	//draw initial elements
+		});		
+	</script>  
+</body>
+    
+</html>
